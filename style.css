@@ -130,6 +130,11 @@ section {
 
 
 @media (max-width: 500px) {
+
+
+#wrapper {
+  max-width: 97%;
+}
   .logo-name {
     flex-wrap: wrap;
   }
@@ -142,8 +147,16 @@ section {
   flex: 1 0 100%;
 }
 
+.name:nth-child(2) {
+  margin-bottom: 2rem;
+}
+
 nav, footer {
 overflow-x: auto;
+}
+
+.content {
+  width: 98%;
 }
 
 td {
@@ -156,7 +169,7 @@ padding: 0.3rem;
 }
 
 section {
-  width: 98%;
+  width: 100%;
 }
 
 
