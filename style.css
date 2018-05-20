@@ -110,18 +110,56 @@ nav, footer {
   border-bottom:  1px solid black;
 }
 /* ---- main ---- */
+
+section {
+  width: 80%;
+}
+
 .content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
   margin: 0 auto;
 }
+
 
 .illustration {
   width: 100%;
   height: auto;
 }
 
+
+@media (max-width: 500px) {
+  .logo-name {
+    flex-wrap: wrap;
+  }
+
+.logo {
+  flex: 1 0 100%;
+}
+
+.name {
+  flex: 1 0 100%;
+}
+
+nav, footer {
+overflow-x: auto;
+}
+
+td {
+font-size: 0.8rem;
+padding: 0.3rem;
+}
+
+.illustration {
+  width: 100%;
+}
+
+section {
+  width: 98%;
+}
+
+
+ }
 
 /* ---- footer ---- */
