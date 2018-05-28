@@ -120,6 +120,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  min-height: 80vh;
 }
 
 .sc-cont {
@@ -162,8 +163,29 @@ font-size: 1.3rem;
     flex-wrap: wrap;
   }
 
+ .slim-column {
+   flex: 1 0 100%;
+   margin-right: 0;
+ }
+
+
+
+ .wide-column {
+  flex: 1 0 100%;
+}
+
+.sc-cont {
+flex-wrap: wrap;
+justify-content: center; 
+}
+
+.lang {
+  display: none;
+}
 .logo {
   flex: 1 0 100%;
+  width: 100px;
+  margin-bottom: 1rem;
 }
 
 .name {
