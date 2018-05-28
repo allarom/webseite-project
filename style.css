@@ -11,12 +11,6 @@ html {
 body, ul, li, div, button, h1, h2, h3, h4, span, a, table {
   margin: 0;
   padding: 0;
-  /* hyphens */
-  -moz-hyphens: auto;
-  -o-hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto; 
 }
 
 /* ---- typography, lists, links ---- */
@@ -64,6 +58,7 @@ header, footer {
 }
 .name {
   text-align: center;
+  hyphens: initial;
 }
 
 header h1 {
@@ -127,6 +122,12 @@ section {
   justify-content: center;
   margin: 0 auto;
   min-height: 80vh;
+  /* hyphens */
+  -moz-hyphens: auto;
+  -o-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; 
 }
 
 .sc-cont {
