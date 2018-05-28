@@ -57,8 +57,17 @@ header, footer {
   height: auto;
 }
 .name {
+  font: 700 1.5rem/1.8rem 'Alegreya';
+  text-transform: initial;
   text-align: center;
   hyphens: initial;
+}
+
+.name1 {
+  font: 400 1.1rem/1.3rem 'Raleway';
+  text-align: center;
+  hyphens: initial;
+
 }
 
 header h1 {
