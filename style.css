@@ -150,6 +150,7 @@ font-size: 1.3rem;
 
 .photo {
   flex: 1 0 30%;
+  margin-bottom: 1rem;
 
 }
 
